@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardian Seguros</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-3">
+      <div class="container">
+        <h1 class="d-flex align-items-center navbar-brand m-0 section-title">
+          <i class="bi bi-shield-plus fs-1 me-2"></i>
+          Guardian Seguros
+        </h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a href="#sobre" class="nav-link">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre a Guardian</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#consorcios" class="nav-link">
+                <i class="bi bi-calendar-check me-1"></i>
+                Consórcios</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#servicos" class="nav-link">
+                <i class="bi bi-card-text me-1"></i>
+                Serviços</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#contato" class="nav-link">
+                <i class="bi bi-chat-left-text me-1"></i>
+                Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="cabecalho"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="sobre">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                class="w-100"
+                src="/images/slides/slide1.jpg"
+                alt="Espaço interno do restaurante"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                class="w-100"
+                src="/images/slides/slide2.jpg"
+                alt="Duas taças de vinho"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                class="w-100"
+                src="/images/slides/slide3.jpg"
+                alt="Uma mesa com comida"
+              />
+            </div>
+          </div>
+
+          <button
+            type="button"
+            class="carousel-control-prev"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            type="button"
+            class="carousel-control-next"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center">
+                <img
+                  class="d-block w-100 rounded"
+                  src="/images/escritorio.jpg"
+                  alt="Espaço interno do restaurante"
+                />
+              </div>
+              <div class="col-md-6 mt-3 mt-md-0">
+                <h2 class="section-title">
+                  Sobre <span class="text-colored">a Guardian</span>
+                </h2>
+                <p>
+                  Nossa missão é proteger o que mais importa para você. Somos
+                  uma corretora comprometida em fornecer soluções personalizadas
+                  para suas necessidades. Com uma equipe dedicada e experiente,
+                  oferecemos orientação especializada no mundo dos seguros.
+                </p>
+                <p>
+                  Fundada com a visão de ser o guardião da sua tranquilidade,
+                  buscamos as melhores opções de cobertura para garantir que
+                  você e sua família estejam protegidos contra os imprevistos da
+                  vida. Seja para proteger sua casa, carro, negócios ou saúde,
+                  estamos aqui para encontrar as melhores soluções para você.
+                </p>
+                <h3 class="section-title">
+                  Nossos <span class="text-colored">Valores</span>
+                </h3>
+                <p>
+                  Valorizamos a transparência, integridade e relacionamentos de
+                  longo prazo. Nosso compromisso é fornecer um serviço
+                  excepcional, entender suas necessidades e oferecer as melhores
+                  opções para proteger o que é importante para você.
+                </p>
+                <p>
+                  Estamos aqui para ser seu guardião, oferecendo segurança e
+                  tranquilidade em cada passo. Entre em contato hoje e deixe-nos
+                  proteger o que mais importa para você.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="consorcios" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Soluções <span class="text-colored">Financeiras</span>
+            </h2>
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <img
+                  class="d-block w-100 rounded mb-2"
+                  src="/images/consorcios/carro.jpg"
+                  alt="Carro novo"
+                />
+                <h3 class="section-title text-colored fs-4 mb-3 text-center">
+                  <i class="bi bi-car-front-fill"></i>
+                  Consórcio Automóvel
+                </h3>
+                <p>
+                  O Consórcio Automóvel oferece uma maneira acessível e sem
+                  juros para você adquirir seu carro novo ou seminovo. Com taxas
+                  de administração, você pode participar de sorteios mensais ou
+                  ser contemplado antecipadamente por lance, realizando seu
+                  sonho de ter um carro próprio de forma planejada e econômica.
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  class="d-block w-100 rounded mb-2"
+                  src="/images/consorcios/casa.jpg"
+                  alt="Casa nova"
+                />
+                <h3 class="section-title text-colored fs-4 mb-3 text-center">
+                  <i class="bi bi-house-door-fill"></i>
+                  Consórcio Imóvel
+                </h3>
+                <p>
+                  O Consórcio Imóvel é a solução para quem deseja adquirir sua
+                  casa própria de forma planejada e sem pagar juros. Com taxas
+                  de administração acessíveis, você pode participar de sorteios
+                  mensais ou ofertar lances para antecipar a contemplação.
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  class="d-block w-100 rounded mb-2"
+                  src="/images/consorcios/previdencia.jpg"
+                  alt="Economizar"
+                />
+                <h3 class="section-title text-colored fs-4 mb-3 text-center">
+                  <i class="bi bi-piggy-bank-fill"></i>
+                  Previdência privada
+                </h3>
+                <p>
+                  A Previdência Privada é uma opção para quem deseja garantir um
+                  futuro financeiro tranquilo. Com ela, você investe
+                  regularmente em um plano de longo prazo, acumulando recursos
+                  para sua aposentadoria ou para alcançar outros objetivos
+                  financeiros.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5">
+              Nossos <span class="text-colored">Serviços</span>
+            </h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-servicos">
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#automoveis"
+                  class="fw-bold text-start nav-link text-colored active"
+                >
+                  Seguro Automóveis
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#celular"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Seguro Celular
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#residencial"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Seguro Residencial
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#saude"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Seguro Saúde
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#vida"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Seguro de Vida
+                </button>
+              </nav>
+            </aside>
+
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div id="automoveis" class="tab-pane active">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <img
+                          class="d-block w-100 rounded"
+                          src="/images/servicos/automoveis/carro.jpg"
+                          alt="Farol de carro"
+                        />
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5
+                            class="text-center text-colored fw-bold mt-4 mb-2 fs-2"
+                          >
+                            Proteja seu carro
+                          </h5>
+                          <p>
+                            Coberturas completas para garantir a segurança do
+                            seu veículo, incluindo Assistência 24 horas. Na
+                            Guardian Seguros, protegemos o que é importante para
+                            você.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <table
+                            class="table table-bordered table-hover table-sm table-responsive"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Cobertura</th>
+                                <th scope="col">Detalhes</th>
+                                <th scope="col">Valor Mensal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Cobertura Total</td>
+                                <td>
+                                  Proteção contra todos os tipos de danos ao
+                                  veículo.
+                                </td>
+                                <td>R$ 750,00</td>
+                              </tr>
+                              <tr>
+                                <td>Responsabilidade Civil</td>
+                                <td>
+                                  Cobertura para danos materiais e corporais a
+                                  terceiros.
+                                </td>
+                                <td>R$ 600,00</td>
+                              </tr>
+                              <tr>
+                                <td>Assistência 24 horas</td>
+                                <td>
+                                  Serviços de reboque, socorro mecânico e
+                                  assistência em viagem.
+                                </td>
+                                <td>R$ 300,00</td>
+                              </tr>
+                              <tr>
+                                <td>Carro Reserva</td>
+                                <td>
+                                  Fornecimento de um veículo reserva em caso de
+                                  sinistro.
+                                </td>
+                                <td>R$ 360,00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="celular" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <img
+                          class="d-block w-100 rounded"
+                          src="/images/servicos/celular/celular.jpg"
+                          alt="Celular"
+                        />
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5
+                            class="text-center text-colored fw-bold mt-4 mb-2 fs-2"
+                          >
+                            Proteja seu celular
+                          </h5>
+                          <p>
+                            Mantenha seu celular protegido com nossas opções de
+                            seguro. Tenha a certeza de que seu dispositivo está
+                            seguro conosco.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <table
+                            class="table table-bordered table-hover table-sm table-responsive"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Cobertura</th>
+                                <th scope="col">Detalhes</th>
+                                <th scope="col">Valor Mensal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Roubo e Furto</td>
+                                <td>
+                                  Proteção contra roubo e furto do celular.
+                                </td>
+                                <td>R$ 50,00</td>
+                              </tr>
+
+                              <tr>
+                                <td>Quebra Acidental</td>
+                                <td>
+                                  Cobertura para danos causados por quedas e
+                                  impactos.
+                                </td>
+                                <td>R$ 30,00</td>
+                              </tr>
+
+                              <tr>
+                                <td>Danos Líquidos</td>
+                                <td>
+                                  Proteção contra danos causados por líquidos.
+                                </td>
+                                <td>R$ 25,00</td>
+                              </tr>
+
+                              <tr>
+                                <td>Assistência Técnica</td>
+                                <td>
+                                  Assistência para reparos e suporte técnico.
+                                </td>
+                                <td>R$ 20,00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="residencial" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <img
+                          class="d-block w-100 rounded"
+                          src="/images/servicos/residencial/casa.jpg"
+                          alt="Casa"
+                        />
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5
+                            class="text-center text-colored fw-bold mt-4 mb-2 fs-2"
+                          >
+                            Proteja sua residência
+                          </h5>
+                          <p>
+                            Mantenha sua casa segura com nossas opções de seguro
+                            residencial. Proteja seu lar e sua família com
+                            tranquilidade.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <table
+                            class="table table-bordered table-hover table-sm table-responsive"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Cobertura</th>
+                                <th scope="col">Detalhes</th>
+                                <th scope="col">Valor Mensal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Roubo e Furto</td>
+                                <td>
+                                  Proteção contra roubo e furto de bens dentro
+                                  da residência.
+                                </td>
+                                <td>R$ 200,00</td>
+                              </tr>
+                              <tr>
+                                <td>Danos Estruturais</td>
+                                <td>
+                                  Cobertura para danos estruturais, como
+                                  incêndios e desabamentos.
+                                </td>
+                                <td>R$ 250,00</td>
+                              </tr>
+                              <tr>
+                                <td>Responsabilidade Civil</td>
+                                <td>
+                                  Proteção em casos de danos involuntários a
+                                  terceiros dentro da residência.
+                                </td>
+                                <td>R$ 150,00</td>
+                              </tr>
+                              <tr>
+                                <td>Assistência Residencial</td>
+                                <td>
+                                  Assistência para serviços emergenciais, como
+                                  encanamento e eletricidade.
+                                </td>
+                                <td>R$ 100,00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="saude" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <img
+                          class="d-block w-100 rounded"
+                          src="/images/servicos/saude/saude.jpg"
+                          alt="Saúde"
+                        />
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5
+                            class="text-center text-colored fw-bold mt-4 mb-2 fs-2"
+                          >
+                            Proteja sua saúde
+                          </h5>
+                          <p>
+                            Invista na sua saúde com nossos planos de seguro de
+                            saúde abrangentes. Cuide de você e de sua família
+                            com segurança e bem-estar.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <table
+                            class="table table-bordered table-hover table-sm table-responsive"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Cobertura</th>
+                                <th scope="col">Detalhes</th>
+                                <th scope="col">Valor Mensal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Consultas Médicas</td>
+                                <td>
+                                  Reembolso de consultas médicas e exames
+                                  laboratoriais.
+                                </td>
+                                <td>R$ 150,00</td>
+                              </tr>
+                              <tr>
+                                <td>Hospitalização</td>
+                                <td>
+                                  Cobertura para despesas hospitalares,
+                                  incluindo cirurgias e internações.
+                                </td>
+                                <td>R$ 300,00</td>
+                              </tr>
+                              <tr>
+                                <td>Medicamentos</td>
+                                <td>
+                                  Reembolso de despesas com medicamentos
+                                  prescritos.
+                                </td>
+                                <td>R$ 100,00</td>
+                              </tr>
+                              <tr>
+                                <td>Odontologia</td>
+                                <td>
+                                  Cobertura para tratamentos odontológicos,
+                                  incluindo limpezas e extrações.
+                                </td>
+                                <td>R$ 120,00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="vida" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div>
+                        <img
+                          class="d-block w-100 rounded"
+                          src="/images/servicos/vida/vida.jpg"
+                          alt="Vida"
+                        />
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5
+                            class="text-center text-colored fw-bold mt-4 mb-2 fs-2"
+                          >
+                            Proteja seu futuro
+                          </h5>
+                          <p>
+                            Mantenha-se seguro em todos os momentos com nossas
+                            opções de seguro de vida. Proteja sua família e
+                            garanta tranquilidade para o futuro.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <table
+                            class="table table-bordered table-hover table-sm table-responsive"
+                          >
+                            <thead>
+                              <tr>
+                                <th scope="col">Cobertura</th>
+                                <th scope="col">Detalhes</th>
+                                <th scope="col">Valor Mensal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Morte</td>
+                                <td>
+                                  Pagamento de indenização aos beneficiários em
+                                  caso de falecimento do segurado.
+                                </td>
+                                <td>R$ 500,00</td>
+                              </tr>
+                              <tr>
+                                <td>Invalidez Permanente</td>
+                                <td>
+                                  Indenização em caso de invalidez permanente
+                                  total ou parcial do segurado.
+                                </td>
+                                <td>R$ 300,00</td>
+                              </tr>
+                              <tr>
+                                <td>Despesas Funerárias</td>
+                                <td>
+                                  Cobertura para despesas relacionadas ao
+                                  funeral do segurado.
+                                </td>
+                                <td>R$ 150,00</td>
+                              </tr>
+                              <tr>
+                                <td>Assistência Funeral</td>
+                                <td>
+                                  Assistência e organização do funeral em caso
+                                  de falecimento do segurado.
+                                </td>
+                                <td>R$ 200,00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Fale <span class="text-colored">Conosco</span>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-bold text-colored"
+                    >Seu nome</label
+                  >
+                  <input type="text" id="nome" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold text-colored"
+                    >Seu E-mail</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label fw-bold text-colored"
+                    >Seu telefone (opcional)</label
+                  >
+                  <input type="tel" id="telefone" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label fw-bold text-colored"
+                    >Sua mensagem</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="mensagem"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+            </div>
+
+            <div class="col-md-5 d-flex flex-column justify-content-center">
+              <div class="row">
+                <h3 class="section-title fs-4 text-colored text-center">
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  Redes Sociais
+                </h3>
+                <ul class="social-links text-center">
+                  <li class="fs-3">
+                    <a href="#">
+                      <i class="text-colored bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="fs-3 ms-3 me-3">
+                    <a href="#">
+                      <i class="text-colored bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="fs-3">
+                    <a href="#">
+                      <i class="text-colored bi bi-whatsapp"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="row mt-4">
+                <h3 class="section-title fs-4 text-colored text-center">
+                  <i class="bi bi-cursor-fill"></i>
+                  Endereço
+                </h3>
+                <p class="text-center fw-bold fs-6 mt-3">
+                  Avenida Paulista 3200, Bela Vista - São Paulo - SP
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container d-flex align-items-center justify-content-between">
+        <p>
+          &copy; 2024 Guardian Seguros. Todos os direitos reservados a Eric
+          Bortoleto.
+        </p>
+        <h3>Guardian Seguros</h3>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </body>
+</html>

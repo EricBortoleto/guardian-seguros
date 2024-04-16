@@ -1,0 +1,77 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+.navbar {
+  background-color: #2100bf;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #2100bf;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #dfdfdf;
+}
+
+.section-title {
+  font-family: Lato, cursive;
+}
+
+#consorcios,
+#contato {
+  background-color: #dfdfdf;
+}
+
+.text-colored {
+  color: #2100bf;
+  font-weight: bold;
+}
+
+.nav-servicos .nav-link.active,
+#contato button {
+  background-color: #2100bf;
+  color: #fff;
+}
+
+.nav-servicos .nav-link:hover {
+  color: #2100bf;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2100bf;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer h3 {
+  font-family: 'Lato, cursive', serif;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 200px;
+  }
+}
